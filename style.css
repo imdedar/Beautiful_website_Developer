@@ -1,0 +1,67 @@
+/* nav style */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,400;0,700;0,800;1,400&family=Proza+Libre:wght@400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Proza Libre', sans-serif;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.nav-title{
+    color: #181818;
+    font-size: 45px;
+    font-weight: 800;
+    line-height: normal;
+}
+
+.text-primary{
+    color: #FD6E0A;
+}
+
+/* .list-items{
+    display: flex;
+    padding-right: 20px;
+    margin-right: 30px;
+} */
+
+/* .list-items li{
+    list-style: none;
+}
+.list-items li a{
+    text-decoration: none;
+} */
+
+nav > ul{
+    display: flex;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-right: 50px;
+}
+
+nav a{
+    text-decoration: none;
+    color: #181818;
+
+}
+
+.btn-primary{
+    border-radius: 5px;
+    background: #FD6E0A;
+    padding: 10px 16px;
+    border: none;
+    color: #fff;
+    font-size: 1.2rem;
+}
