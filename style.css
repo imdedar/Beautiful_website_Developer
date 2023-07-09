@@ -12,11 +12,28 @@ body{
     font-family: 'Proza Libre', sans-serif;
 }
 
+header{
+    background: #FFF8F3;
+}
+
+.banner{
+    padding: 30px 30px 30px 150px;
+    display: flex;
+    align-items: center;
+
+}
+
+.banner .profile-img{
+    width: 500px;
+}
+
 nav{
     display: flex;
     justify-content: space-around;
     align-items: center;
+    margin: 0 auto;
 }
+
 
 .nav-title{
     color: #181818;
